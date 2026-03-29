@@ -12,6 +12,7 @@ public class Task implements Serializable {
     private Categorize category; //enum for task category
     private String customCategory; //for user-defined categories
 
+    private static final long serialVersionUID = 1L; //for serialization
     
     public Task (String name, LocalDate dueDate, Priority priority, Recurrence recurrence, Categorize category, String customCategory) {
         this.name = name;
