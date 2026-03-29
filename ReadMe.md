@@ -1,14 +1,14 @@
-#TITLE: Aralist (To Do list using Array List) 
+# TITLE: Aralist (To Do list using Array List) 
 
 
-** Final Java Programming Activity **
-** Date: December 2025 **
+**Final Java Programming Activity**
+**Date: December 2025**
 
 ---
 
 
 ## About the Project: 
-** ARALIST
+**ARALIST**
 	- a console-based to-do list application built in Java using multiple functions but mainly focusing on ArrayList class.
 Allows user to:
 - Add tasks - we created a method for the adding of the task using arraylist to make the adding of the task more efficient and easier rather than arrays that requires a more complex way of doing so. In case 1, we also used different utilities such as LocalDateTime to determine if the date that the user will input is the currentdate or the date after the current date. 
@@ -63,44 +63,47 @@ For more examples, refer to the Documentation.
 
 
 ## Contributors
-** Dominique Jazz Doroteo - Integration Lead 
-** Mach Julian Galope - Arrays Lead
-** Gillian Princess Gamotia - Basics Lead
+**Dominique Jazz Doroteo**
+**Mach Julian Galope**
+**Gillian Princess Gamotia**
 
 ---
 
 
 ## Documentation
-** Week 1:
-	November 28, 2025: Conceptualization, Basic functions of the program 
-	November 30, 2025: Development of Case 1 and Case 2
-	December 03, 2025: Development of Case 3 & Re-evaluation on the functions of our programs 
-	December 04, 2025: Development of Case 4
-	December 05, 2025: Progress checking 
-** Week 2: 
-	December 07, 2025: Development of Case 5 & Revising parts of the Code
-	December 08, 2025: Documentations Report	
+**Week 1:**
+- November 28, 2025: Conceptualization, Basic functions of the program
+- November 30, 2025: Development of Case 1 and Case 2
+- December 03, 2025: Development of Case 3 & Re-evaluation on the functions of our programs
+- December 04, 2025: Development of Case 4
+- December 05, 2025: Progress checking 
+
+**Week 2:**
+- December 07, 2025: Development of Case 5 & Revising parts of the Code
+- December 08, 2025: Documentations Report	
 
 --- 
 
 
 ## Code Development & Challenges
 
-** Lack of Time
+Lack of Time:
 The main challenge the group faced was the lack of time to accomplish the code for the features they aimed to input during the conceptualization period. Thus they decided to remove features such as the calendar integration and pomodoro timer. 
 
-** Redundancy of features 
+Redundancy of features: 
 Initial features such as sorting by priority and by subject though may seem useful, may seem redundant and not useful for the scope of this program.
 
-** Errors such as Indexoutofbounds etc. 
+Errors such as Indexoutofbounds etc.:
 During development, the group encountered typical programming issues such as IndexOutOfBoundsException and input validation errors. These challenges were resolved by adding error-handling mechanisms, validating user input, and refining the logic to ensure smoother program execution.
 
  
 
 ---
-Contact: 
+**Contact:**
 
 Dominique Doroteo - dominiquejazz.doroteo@ust.edu.ph
+
 Mach Galope - mach.galope@ust.edu.ph
+
 Gillian Gamotia - gillianprincess.gamotia@ust.edu.ph
 
