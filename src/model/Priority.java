@@ -1,3 +1,5 @@
+package model;
+
 public enum Priority {
     HIGH(1),
     MEDIUM(2),

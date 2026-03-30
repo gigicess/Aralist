@@ -1,3 +1,5 @@
+package model;
+
 import java.io.Serializable; //for saving/loading tasks
 import java.time.LocalDate;
 import java.time.LocalTime;

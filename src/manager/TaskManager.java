@@ -1,11 +1,21 @@
+package manager;
+
+import analytics.TaskAnalytics;
+import exceptions.DuplicateTaskException;
+import exceptions.InvalidTaskNameException;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.time.LocalDate; //for saving/loading tasks
+import java.time.LocalDate;
 import java.util.*;
+import model.Categorize;
+import model.Priority;
+import model.Recurrence;
+import model.Task;
+
 
 
 public class TaskManager {
@@ -44,7 +54,7 @@ public class TaskManager {
     // Add Task
     public void addTask(Task task) throws DuplicateTaskException {
         if (taskMap.containsKey(task.getName().toLowerCase())) {
-            throw new DuplicateTaskException("Task already exists."); //Exception for duplicate tasks
+            throw new DuplicateTaskException("Task already exists."); //Exception for duplicate tasks //Exception is in exception folder
         }
         tasks.add(task);
         taskMap.put(task.getName().toLowerCase(), task);
