@@ -1,2 +1,2 @@
 # Ignore the 'others' folder
-others/
+others/**
