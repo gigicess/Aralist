@@ -3,6 +3,7 @@ package model;
 import java.io.Serializable; //for saving/loading tasks
 import java.time.LocalDate;
 import java.time.LocalTime;
+import util.DateHelper; //for date formatting
 
 public class Task implements Serializable {
     private String name;
@@ -57,5 +58,13 @@ public class Task implements Serializable {
         return "Pending";
     }
 
+    @Override
+    public String toString() {
+    return name + " | Due: " + DateHelper.formatDate(dueDate)
+           + " | Priority: " + priority
+           + " | Category: " + category
+           + (customCategory != null ? " (" + customCategory + ")" : "")
+           + " | Completed: " + (completed ? "Yes" : "No");
+    }
     
 }
